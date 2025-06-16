@@ -7,6 +7,11 @@ This project converts hand-drawn UI sketches into functional HTML code using dee
 - `notebooks/`: Jupyter notebooks containing training, evaluation, and pipeline integration.
 - `requirements.txt`: Python dependencies.
 
+### Notebooks folder
+
+- `part1.ipynb`: Trains the YOLOvs8 model with parameter tuning to get the model weights needed for part2.ipynb.
+- `part2.ipynb`: This file contains the other DL components and the end-to-end pipeline.
+
 ## 📊 Highlights
 
 - Object detection using **YOLOv8s**
